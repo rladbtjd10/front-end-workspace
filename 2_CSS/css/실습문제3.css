@@ -1,0 +1,66 @@
+header {
+    position: fixed; /*고정하는거*/
+    /* background-color: black; */
+    width: 500px;
+    height: 100vh;
+    background-image: url("../../resources/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header-blackbox {
+    background-color: rgba(0, 0, 0, 0.5); /*검은색으로 덮는거*/
+    width: 100%;
+    height: 100%;
+}
+.header-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    /* background-color: pink; */
+    width: 100%;
+    height: 100%;
+    display: flex; /*위치지정*/
+    flex-direction: column; /*위치지정*/
+    justify-content: space-around; /*위치지정- 메뉴아래에 나오게 방법2*/
+    align-items: center; /*위치지정*/
+}
+
+.header-content h1 {
+    font-size: 5rem;
+    border-bottom: 3px solid white; /* 밑줄 */
+    padding-bottom: 15px;
+}
+
+.header-content ul {
+    font-size: 2rem;
+    /* margin-top: 180px; -메뉴아래에 나오게 하는거 방법1*/ 
+}
+
+.header-content ul li{
+    margin: 20px;
+}
+
+main {
+    padding-left: 500px; /*로고쪽이랑 겹치는 부분 떨어뜨려서 나오게*/
+}
+.main-content {
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+}
+.main-content h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-content img {
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 800px; /*최대너비800px까지 고정! 더 안커지게*/
+    align-self: center;
+}
+.main-content p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
