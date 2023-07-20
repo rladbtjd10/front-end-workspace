@@ -1,0 +1,86 @@
+header {
+    /* background-color: pink; */
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    position: fixed; /*고정하는거*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    line-height: 60px;
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+    line-height: 60px;
+    display: inline-block;
+    /* background-color: skyblue; */
+    padding: 0 10px;
+}
+header nav a:hover {
+    color:tomato;
+}
+
+main {
+    padding-top: 60px; /*로고쪽이랑 겹치는 부분 떨어뜨려서 나오게*/
+}
+main section {
+    height: 100vh; /*한페이지 한페이지 나눠서 나오게*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*정중앙*/
+    align-items: center; /*정중앙*/
+}
+main #section1 {
+    background-color: red;
+}
+main #section2 {
+    background-color: purple;
+}
+main #section3 {
+    background-color: yellow;
+}
+
+main section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+main section p {
+    width: 50%;
+    text-align: center;
+    line-height: 1.4rem; /*글자사이의 간격*/
+}
+
+#top {
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border-radius: 50%; /*동글뱅이*/
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+#top a {
+    /* display: inline-block; */
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
