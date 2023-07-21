@@ -156,17 +156,28 @@
         const stringla4 = document.querySelector("#stringla4");
         const remove = document.querySelector("#remove");
         const add = document.querySelector("#add");
-        const result4 = document.querySelector("result4");
+        const result4 = document.querySelector("#result4");
 
         function arrayTest() {
             const arr = stringla4.innerHTML.split(" ");
             const removeIdx = arr.indexOf(remove.value);
-            // if(remove.value !== "") {
-            //     arr.splice(re)
-            // }
+
             arr.splice(removeIdx, 1);
             arr.push(add.value);
             result4.innerHTML = arr.join(" ");
+
+        //     function arrayTest() {
+        //     const arr = stringla4.innerHTML.split(" ");
+        //     console.log(arr);
+        //     const removeIdx = arr.indexOf(remove.value);
+        //     if(remove.value !== "") {
+        //         arr.splice(removeIdx, 1);
+        //     }
+        //     if(add.value !== ""){
+        //         arr.push(add.value);
+        //     }
+        //     result4.innerHTML = arr.join(" ");
+        // }
         }
 
 
@@ -209,7 +220,7 @@
 
     <script>
         // 문제 5번
-        /*
+        
         let objArr = [];
         let nameList = document.querySelectorAll(".name");
         let ageList = document.querySelectorAll(".age");
@@ -220,7 +231,7 @@
             this.age = age;
             this.addr =addr;
         }
-
+        /*
         function addStudent() {
             for(let i=0; i < nameList.length; i++) {
                 let name = prompt("이름 입력");

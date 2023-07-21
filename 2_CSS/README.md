@@ -972,3 +972,117 @@ hsla(Hue(0~360), Saturation(0~100%), Brightness(0~100%), alpha(0~1));
 ```css
 order : 0 or 숫자;
 ```
+
+<br>
+
+[위로 이동](#목차)
+
+# Grid
+
+- CSS 레이아웃 모델로 한 방향 레이아웃인 플렉스와 달리 두 방향(가로-세로) 레이아웃
+
+```html
+<div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+```
+
+## display: grid;
+
+- Grid 컨테이너에 display: grid;를 적용하면서 시작
+
+```css
+.container {
+    display: grid;
+}
+```
+
+## grid-template-rows, grid-template-columns
+
+- 컨테이너에 Grid 트랙(행 또는 열)의 크기들을 지정해주는 속성
+
+```css
+.container {
+    grid-template-columns: 200px 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr); //바로위랑 같은의미
+    grid-template-columns: 200px 1fr;
+    grid-template-columns: 100px 200px auto;
+}
+```
+
+### auto-fill, auto-fit
+
+- column의 개수를 미리 정하지 않고 설정된 너비가 허용하는 한 최대한 셀을 채움
+- auto-fill은 셀의 개수가 모자라면 공간이 남지만, auto-fit은 채움
+
+## row-gap, column-gap, gap
+
+- 그리드 셀 사이의 간격을 설정하는 속성
+- 예전 브라우저에서는 grid-gap 사용
+
+```css
+.container {
+    row-gap: 10px;
+    column-gap: 20px;
+
+    gap: 10px 20px;
+}
+```
+
+## grid-auto-columns, grid-auto-rows
+
+- 통제를 벗어난 위치에 잇는 트랙의 크기를 지정하는 속성
+
+```css
+.container {
+    grid-auto-columns: 200px;
+    grid-auto-rows: 20%;
+}
+```
+
+## grid-column-start, grid-column-end, grid-column, grid-row-start , grid-row-end, grid-row
+
+- 각 셀의 영역을 지정하는 속성
+
+```css
+.item {
+    grid-column: 1/4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row: 2/4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+```
+
+## justify-items, align-items
+
+- 셀들의 정렬을 지정하는 속성
+
+```css
+.container {
+    justify-items: start;
+    justify-items: center;
+    justify-items: end;
+
+    align-items: start;
+    align-items: center;
+    align-items: end;
+}
+```
+
+## justify-self, align-self
+
+- 각 하나의 셀의 정렬을 지정하는 속성
+
+```css
+.item {
+    justify-self: start;
+    justify-self: center;
+    justify-self: end;
+}
+```
