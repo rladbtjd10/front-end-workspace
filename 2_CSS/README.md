@@ -968,3 +968,13 @@ hsla(Hue(0~360), Saturation(0~100%), Brightness(0~100%), alpha(0~1));
 ```css
 order : 0 or 숫자;
 ```
+
+## transform-origin
+
+-변형의 기준점을 변경하는 속성
+
+```css
+선택자 {
+    transform-origin: x축 y축 z축;
+}
+```

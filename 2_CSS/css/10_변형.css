@@ -1,0 +1,26 @@
+.box-container {
+    border: 1px solid black;
+    height: 50vh;
+}
+#box-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(89, 91, 209, 0.541);
+    border: 2px solid black;
+}
+.box:hover {
+    transform: scale(2);
+    transform: rotate(45deg);
+    transform: skew(30deg);
+    transform: skewY(30deg);
+    transform: translateX(100px);
+    transform: translate(50px, 100px);
+    transform: scale(1.5) rotate(30deg);
+    transform-origin: left top;
+    transform-origin: right bottom;
+}
