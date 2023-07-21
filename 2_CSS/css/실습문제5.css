@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(45deg, black, blue); /* 처음에 할때 height: 100vh;값있어야 나타남*/
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*정가운데로 가려면 height: 100vh;이 여기로 가야됨 높이줘야됨*/
+}
+
+.square{
+    width: 10px;
+    height: 50px;
+    background-color: white;
+    margin: 3px; /* 각사이가 떨어지도록*/
+    border-radius: 10px; /*양 모서리 끝 둥글게*/
+    animation: squareScale 1.2s linear infinite; /* linear infinite- 계속반복되게*/
+}
+.square:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.square:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.square:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.square:nth-child(4) {
+    animation-delay: 0.2s;
+}
+.square:nth-child(5) {
+    animation-delay: 0.3s;
+}
+.square:nth-child(6) {
+    animation-delay: 0.2s;
+}
+.square:nth-child(7) {
+    animation-delay: 0.1s;
+}
+
+@keyframes squareScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scaleY(2);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+
+
+
+
+
