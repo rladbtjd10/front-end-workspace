@@ -1146,3 +1146,16 @@ order : 0 or 숫자;
 - animation-timing-function : 속도 형태 지정
 - animation-delay : 대기 시간 지정
 - animation-direction : 진행 형태 지정
+
+## backface-visibility
+
+- 요소가 회전하여 뒷면이 보일 경우 표시 여부를 지정하는 속성
+
+```css
+선택자 {
+    backface-visibility: visible or hidden;
+}
+```
+
+- visible : 뒷면이 보이도록 표시 (기본값)
+- hidden : 뒷면이 보이지 않도록 한다.
