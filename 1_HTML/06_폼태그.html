@@ -112,7 +112,7 @@
     <form>
         <label for="amount">수량 : </label>
         <input type="number" name="amount" id="amount" min="0" max="10" step="2" value="0">
-
+        
         <br><br>
 
         <label for="point">포인트 : </label>
@@ -168,10 +168,11 @@
         <label for="datetime-local">datetime-local : </label>
         <input type="datetime-local" name="datetime-local" id="datetime-local">
 
-        <button>전송</button>
+        <button>전송</button> <!-- 기본값으로 type="submit"이 적용됩니다. -->
         <button type="submit">전송</button>
         <button type="reset">초기화</button>
-        <button type="button" onclick="alert('버튼 클릭!!')">버튼</button>
+        <button type="button" onclick="alert('버튼 클릭!!')">버튼</button> 
+        <!-- JavaScript의 alert() 함수를 사용하여 간단한 경고창을 띄우는 동작을 수행 -->
     </form>
 
     <br><hr>
@@ -197,6 +198,7 @@
     <h2>textarea 태그</h2>
     <form>
         <textarea name="textarea" id="textarea" cols="30" rows="10" style="resize:none;"></textarea>
+        <!-- style="resize:none;" -> 입력란의 크기 조정(resize)을 비활성화합니다 -->
         <br><br>
         <button>전송</button>
     </form>
