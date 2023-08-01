@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
     <style>
+        fieldset * {
+            vertical-align: middle;
+        }
         label {
             font-weight: bold;
         }
@@ -22,6 +25,9 @@
         }
         .a {
             background-color:rgb(229, 247, 242);
+        }
+        input[type=submit] {
+            margin-left: 150px;
         }
 
     </style>
@@ -64,7 +70,7 @@
         <tr>
             <td>9</td>
             <td>공지사항 제목9</td>
-            <td width="80" class="a">바로가기</td>
+            <td><input type="button" value="바로가기"></td>
             <td>user01</td>
             <td>2021-03-29</td>
             <td>34</td>
