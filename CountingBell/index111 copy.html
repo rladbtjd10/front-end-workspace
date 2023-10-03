@@ -22,7 +22,7 @@
     />
   </head>
   <body>
-    <div class="container text-center">
+    <section class="container">
       <div class="row">
         <div class="col-4">
           <img
@@ -33,20 +33,22 @@
           />
         </div>
         <div class="col-4">
-          <span class="res1">
-            <div class="res11 fs-2 fw-medium">레스토랑스</div>
-            <div class="res11 fs-6 fw-medium text-secondary">
+          <div class="res11 py-3">
+            <h2 class="res111 fw-bold">
+              레스토랑스
+              <span class="res2 fs-6 fw-bold text-muted"
+                ><i
+                  class="bi bi-star-fill"
+                  style="font-size: 1rem; color: #fbe94b"
+                ></i>
+                4.6</span
+              ><span class="res3 fs-6 fw-bold text-muted">ㆍ리뷰 36 개</span>
+            </h2>
+            <div class="res11 fs-6 fw-medium text-muted">
               이탈리아 음식 ㆍ강남
             </div>
-          </span>
-          <span class="res2"
-            ><i
-              class="bi bi-star-fill"
-              style="font-size: 1rem; color: #fbe94b"
-            ></i>
-            4.6</span
-          >
-          <span class="res3">ㆍ리뷰 36 개</span>
+          </div>
+
           <table class="table table-borderless">
             <tr>
               <td>주소</td>
@@ -62,7 +64,16 @@
             </tr>
             <tr>
               <td>주차</td>
-              <td colspan="2">주차공간없음</td>
+              <td>주차공간없음</td>
+              <td width="75">
+                <button
+                  type="button"
+                  class="btn text-white fw-bold"
+                  style="border-radius: 50%; background-color: #ff6b01"
+                >
+                  예약
+                </button>
+              </td>
             </tr>
           </table>
         </div>
@@ -75,7 +86,7 @@
           />
         </div>
       </div>
-    </div>
+    </section>
 
     <nav
       id="navbar-example2"
@@ -94,7 +105,7 @@
       </ul>
     </nav>
 
-    <div class="container" id="scrollspyHeading1">
+    <section class="container mb-5" id="scrollspyHeading1">
       <div class="row mt-2" style="border-bottom: 2px solid #ddd">
         <div class="col-2 text-center">
           <i
@@ -284,9 +295,503 @@
           </span>
         </div>
       </div>
+    </section>
+    
+    <section class="container mb-5" id="scrollspyHeading2">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-3">
+            <h2>3.8</h2>
+            <i class="bi bi-star-fill" style="font-size: 1rem; color: #fbe94b"></i>
+            <i class="bi bi-star-fill" style="font-size: 1rem; color: #fbe94b"></i>
+            <i class="bi bi-star-fill" style="font-size: 1rem; color: #fbe94b"></i>
+            <i class="bi bi-star-fill" style="font-size: 1rem; color: #fbe94b"></i>
+            <i class="bi bi-star-fill" style="font-size: 1rem; color: #fbe94b"></i>
+          </div>
+          <div class="col-9">
+            <div class="row align-items-center" style="margin-bottom: 1%">
+              <div class="col-1">5점</div>
+              <div class="col-10">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="col-1">12명</div>
+            </div>
+            <div class="row align-items-center" style="margin-bottom: 1%">
+              <div class="col-1">4점</div>
+              <div class="col-10">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 10%"></div>
+                </div>
+              </div>
+              <div class="col-1">2명</div>
+            </div>
+            <div class="row align-items-center" style="margin-bottom: 1%">
+              <div class="col-1">3점</div>
+              <div class="col-10">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 0%"></div>
+                </div>
+              </div>
+              <div class="col-1">0명</div>
+            </div>
+            <div class="row align-items-center" style="margin-bottom: 1%">
+              <div class="col-1">2점</div>
+              <div class="col-10">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 20%"></div>
+                </div>
+              </div>
+              <div class="col-1">4명</div>
+            </div>
+            <div class="row align-items-center " style="margin-bottom: 1%">
+              <div class="col-1">0점</div>
+              <div class="col-10">
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 10%"></div>
+                </div>
+              </div>
+              <div class="col-1">2명</div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <div class="eee" style="border-top: 2px solid #ddd; margin-top: 50px;"></div>
+
+    <div class="container mt-3 mb-4">
+      <div class="col">
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              class="user-dashboard-info-box table-responsive mb-0 bg-white p-4 shadow-sm"
+            >
+              <table class="table manage-candidates-top mb-0">
+                <thead>
+                  <tr>
+                    <th>리뷰 116건</th>
+                    <th class="text-center">최신순</th>
+                    <th class="text-center">평점높은순</th>
+                    <th class="text-center">평점낮은순</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="candidates-list">
+                    <td class="title">
+                      <div class="thumb">
+                        <img
+                          class="rounded-circle"
+                          src="../picture/lesser_panda.jpg"
+                        />
+                      </div>
+                      <div class="candidate-list-details">
+                        <div class="candidate-list-title">
+                          <h5 class="mb-0 fw-semibold">세레나</h5>
+                        </div>
+                        <div class="candidate-list-star">
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                        </div>
+                      </div>
+                      <div class="candidate-list-details">
+                        <ul class="candidate-list-favourite-time text-center">
+                          <li class="menu">토마토 파스타</li>
+                          <li class="menu">페퍼로니 피자</li>
+                          <li class="data">2023.8.23</li>
+                        </ul>
+                        <div
+                          class="text-center"
+                          style="margin: 5px 10px 15px 50px"
+                        >
+                          <img
+                            src="../picture/pasta.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                          <img
+                            src="../picture/pizza2.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                        </div>
+                        <div class="review" style="margin: 30px 10px 5px 70px">
+                          맛있어요~!
+                        </div>
+                      </div>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">좋아요 3</span>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">싫어요 1</span>
+                    </td>
+                    <td></td>
+                  </tr>
+
+                  <tr class="candidates-list">
+                    <td class="title">
+                      <div class="thumb">
+                        <img
+                          class="rounded-circle"
+                          src="../picture/giraffe.jpg"
+                        />
+                      </div>
+                      <div class="candidate-list-details">
+                        <div class="candidate-list-title">
+                          <h5 class="mb-0 fw-semibold">기린</h5>
+                        </div>
+                        <div class="candidate-list-star">
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                        </div>
+                      </div>
+                      <div class="candidate-list-details">
+                        <ul class="candidate-list-favourite-time text-center">
+                          <li class="menu">토마토 파스타</li>
+                          <li class="data">2023.8.23</li>
+                        </ul>
+                        <div
+                          class="text-center"
+                          style="margin: 5px 10px 15px 50px"
+                        >
+                          <img
+                            src="../picture/pasta.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                        </div>
+
+                        <div class="review" style="margin: 30px 10px 5px 70px">
+                          매일매일 먹고싶은 맛!!
+                        </div>
+                      </div>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">좋아요 3</span>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">싫어요 1</span>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr class="candidates-list">
+                    <td class="title">
+                      <div class="thumb">
+                        <img
+                          class="rounded-circle"
+                          src="../picture/panda.jpg"
+                        />
+                      </div>
+                      <div class="candidate-list-details">
+                        <div class="candidate-list-title">
+                          <h5 class="mb-0 fw-semibold">팬더</h5>
+                        </div>
+                        <div class="candidate-list-star">
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                        </div>
+                      </div>
+                      <div class="candidate-list-details">
+                        <ul class="candidate-list-favourite-time text-center">
+                          <li class="menu">토마토 파스타</li>
+                          <li class="menu">페퍼로니 피자</li>
+                          <li class="data">2023.8.23</li>
+                        </ul>
+                        <div
+                          class="text-center"
+                          style="margin: 5px 10px 15px 50px"
+                        >
+                          <img
+                            src="../picture/pasta.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                          <img
+                            src="../picture/pizza2.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                        </div>
+                        <div class="review" style="margin: 30px 10px 5px 70px">
+                          맛있어요~!
+                        </div>
+                      </div>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">좋아요 3</span>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">싫어요 1</span>
+                    </td>
+                    <td></td>
+                  </tr>
+
+                  <tr class="candidates-list">
+                    <td class="title">
+                      <div class="thumb">
+                        <img
+                          class="rounded-circle"
+                          src="../picture/cat.jpg"
+                        />
+                      </div>
+                      <div class="candidate-list-details">
+                        <div class="candidate-list-title">
+                          <h5 class="mb-0 fw-semibold">야옹이</h5>
+                        </div>
+                        <div class="candidate-list-star">
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                        </div>
+                      </div>
+                      <div class="candidate-list-details">
+                        <ul class="candidate-list-favourite-time text-center">
+                          <li class="menu">토마토 파스타</li>
+                          <li class="data">2023.8.23</li>
+                        </ul>
+                        <div
+                          class="text-center"
+                          style="margin: 5px 10px 15px 50px"
+                        >
+                          <img
+                            src="../picture/pasta4.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                        </div>
+
+                        <div class="review" style="margin: 30px 10px 5px 70px">
+                          매일매일 먹고싶은 맛!!
+                        </div>
+                      </div>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">좋아요 3</span>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">싫어요 1</span>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr class="candidates-list">
+                    <td class="title">
+                      <div class="thumb">
+                        <img
+                          class="rounded-circle"
+                          src="../picture/panda.jpg"
+                        />
+                      </div>
+                      <div class="candidate-list-details">
+                        <div class="candidate-list-title">
+                          <h5 class="mb-0 fw-semibold">팬더</h5>
+                        </div>
+                        <div class="candidate-list-star">
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                          <i
+                            class="bi bi-star-fill"
+                            style="font-size: 1rem; color: #fbe94b"
+                          ></i>
+                        </div>
+                      </div>
+                      <div class="candidate-list-details">
+                        <ul class="candidate-list-favourite-time text-center">
+                          <li class="menu">토마토 파스타</li>
+                          <li class="menu">페퍼로니 피자</li>
+                          <li class="data">2023.8.23</li>
+                        </ul>
+                        <div
+                          class="text-center"
+                          style="margin: 5px 10px 15px 50px"
+                        >
+                          <img
+                            src="../picture/pasta.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                          <img
+                            src="../picture/pizza2.jpg"
+                            class="rounded"
+                            style="height: 200"
+                            width="150"
+                          />
+                        </div>
+                        <div class="review" style="margin: 30px 10px 5px 70px">
+                          맛있어요~!
+                        </div>
+                      </div>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">좋아요 3</span>
+                    </td>
+                    <td class="candidate-list-favourite-time text-center">
+                      <span class="candidate-list-time order-1">싫어요 1</span>
+                    </td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="text-center mt-3 mt-sm-3">
+                <ul class="pagination justify-content-center mb-0">
+                  <li class="page-item disabled">
+                    <span class="page-link">Prev</span>
+                  </li>
+                  <li class="page-item active" aria-current="page">
+                    <span class="page-link">1 </span>
+                    <span class="sr-only"></span>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">...</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">25</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!--------------------->
+    <h4 id="scrollspyHeading3">사진</h4>
+      <p>
+        <div class="container text-center mt-lg-0">
+          <div class="row">
+            <div class="col m">
+              <img src="../resources/album1.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album2.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album3.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album1.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album2.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album3.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album1.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album2.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album3.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album1.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album2.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album3.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album1.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album2.jpg" >
+            </div>
+            <div class="col">
+              <img src="../resources/album3.jpg" >
+            </div>
+          </div>
+        </div>
+      </p>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
