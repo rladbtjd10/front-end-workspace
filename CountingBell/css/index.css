@@ -1,3 +1,7 @@
+.nav-pills > .nav-item > .active {
+  background-color: #fcac6b !important; 
+}
+
 body {
   background-color: #f8f9fa !important;
 }
